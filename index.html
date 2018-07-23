@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora JS</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul>
+                <li class="project">Calculadora em Javascript</li>
+                <li class="project">Autor: Mario Castro</li>
+            </ul>
+        </div>
+    </header>
+<!-- Calculadora -->
+<article>
+    <div class="container">
+        <!-- box-calculadora -->
+        <div class="box-calc"> 
+            <h3>Calculadora</h3>
+            <div class="row-keys">
+            <button class="keys" data-js="keysCE">CE</button>
+                <div class="visor">
+                    <input type="text" data-js="display" readonly>
+                </div>
+            </div>
+            <div class="row-keys">
+                <button class="keys" value=7 data-js="keys">7</button>
+                <button class="keys" value=8 data-js="keys">8</button>
+                <button class="keys" value=9 data-js="keys">9</button>
+                <button class="keys" value='/' data-js="keysOp">/</button>
+            </div>
+            <div class="row-keys">
+                <button class="keys" value=4  data-js="keys">4</button>
+                <button class="keys" value=5  data-js="keys">5</button>
+                <button class="keys" value=6  data-js="keys">6</button>
+                <button class="keys" value='x' data-js="keysOp">x</button>
+            </div>
+            <div class="row-keys">
+                <button class="keys" value=1 data-js="keys">1</button>
+                <button class="keys" value=2 data-js="keys">2</button>
+                <button class="keys" value=3 data-js="keys">3</button>
+                <button class="keys" value='-' data-js="keysOp">-</button>
+            </div>
+            <div class="row-keys">
+                <button class="keys" value=0 data-js="keys">0</button>
+                <button class="keys" value='.' data-js="keys">.</button>
+                <button class="keys" value='=' data-js="keysEqual">=</button>
+                <button class="keys" value='+' data-js="keysOp">+</button>
+            </div>
+          
+        </div><!-- Box Calculadora-->
+    </div>
+</article>
+   
+    <script src="js/calculadora.js"></script>
+</body>
+</html>

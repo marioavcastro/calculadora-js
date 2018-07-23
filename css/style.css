@@ -1,0 +1,119 @@
+/*Estilo do Site
+    Autor: Mario Castro
+    Projeto: Calculadora
+*/
+
+/*Estilos Gerais
+body {
+    background-color:#727070;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid red;
+
+}
+
+ul li {
+    list-style: none;
+    border: 1px solid blue;
+    
+}
+*/
+
+/* Estilos gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* Topo */
+header {
+    width: 100%;
+    background-color: #1d004b;
+    margin-bottom: 80px;
+}
+
+ul {
+    text-align: center;
+    padding: 20px 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.project {
+    color: #fff;
+    font-size: 22px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Calculadora */
+
+.box-calc {
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #50514f;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+
+.box-calc h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+input {
+    display: block;
+    width: 257px;
+    height: 50px;
+    float: right;
+    margin: 5px 1px 5px 0;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+button:first-child{
+    margin:0;
+}
+
+.row-keys {
+    width: 350px;
+    margin: 10px auto;
+    overflow: auto;
+}
+
+.keys {
+    display: block;
+    width: 86px;
+    height: 55px;
+    float: left;
+    margin-left: 1px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    background-color: #fdfff7;
+    font-weight: bold;
+}
